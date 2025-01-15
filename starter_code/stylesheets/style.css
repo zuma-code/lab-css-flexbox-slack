@@ -8,3 +8,209 @@ paragraph yellow: #ECB12F
 links blue: #2E71A6
 footer links grey: #454245
 */
+
+body {
+  margin: 0 auto;
+  font-family: Arial, Helvetica, sans-serif;
+}
+nav {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  text-align: center;
+  justify-content: space-between;
+}
+.slack-logo {
+  max-width: 110px;
+  margin-left: 10px;
+  margin-top: 10px;
+}
+nav > ul > li {
+
+  text-decoration-style: none;
+}
+.header-first-section {
+  display: flex;
+  width:90%;
+  flex-direction: column;
+  background-color: #540b51;
+  align-items: center;
+  justify-content: center;
+  color: white;
+}
+.great-teamwork{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  font-size: 2em;
+  text-align: center;
+}
+.subheader-yellow {
+  color: #ecb12f;
+  display: inline;
+}
+
+.header-buttons {
+  display: flex;
+  flex-direction: column;
+  width: 90vh
+  text-align: center;
+  border-radius: 8%;
+  padding:40px;
+  margin: 10px;
+  gap: 20px;
+  
+}
+
+
+.google-logo-button{
+  max-width: 40px;
+  margin-left: 10px;
+  margin-bottom: 10px;
+  display: flex; 
+  position: relative;
+  justify-content: space-between;
+  background-color: white;
+}
+
+.header-email-button{
+  height:80px;
+}
+
+.header-google-button{
+  height:80px;
+  display:flex;
+  flex-grow:2;
+  width:100%;
+  position:relative;
+  justify-content: center;
+  background-color: #4285F4;
+}
+
+.google-button-image{
+  width: 60px;
+  background-color: white;
+}
+
+
+.hero-product-image{
+  width: auto;
+  
+}
+.sign-up-button-text{}
+
+
+.section-companies{
+  background-color:#F3EAE2;
+padding: 10px;
+}
+.trusted-companies{
+  display:flex;
+  flex-direction: row;
+}
+
+.companies{
+  width: 50%vw;
+  display:flexbox;
+  flex-direction:row;
+  justify-content:space-evenly;
+  align-items: center;
+}
+
+.company-logo{
+
+  max-width: 100px;
+  margin:10px;
+
+}
+.teams{
+  background-color: white;
+  align-content: center;
+  margin: 12px;
+  text-align:center;
+}  
+
+.teams-title{
+  color:#540b51;
+  font-weight:bold;
+}
+.teams ul{
+  list-style-type:none;
+  text-align:center;
+ 
+}
+.percentage{
+  font-size: 2em;
+  color: #540b51;
+  font-weight:bold;
+
+}
+.welcome{
+  background-color: #540b51;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: white;
+  font-size: 1.2em;
+}
+.welcome > button{
+  display: flex;
+  flex-direction: column;
+  width: 90vh;
+  text-align: center;
+  border-radius: 4%;
+  padding:40px;
+  margin: 10px;
+  gap: 2px;
+}
+
+
+
+
+
+
+@media (max-width: 768px) {
+  nav {
+    background-color: #540b51;
+  }
+
+  nav ul > li {
+    display: none;
+  }
+  nav button {
+    margin-right: auto;
+    background-color: #540b51;
+    border: none;
+  }
+  header {
+    background-color: #540b51;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  .header-buttons {
+    overflow-x: hidden;
+    
+  }
+  .header-first-section {
+    display: flex;
+    flex-direction: column;
+    padding: 50px;
+    align-items: center;
+    justify-content: center;
+    color: white;
+  }
+  .hero-product-image-container{
+    width:-webkit-fill-available;  
+    overflow-x: hidden;
+    margin-bottom:24px;
+  }
+  .hero-product-image{ 
+    object-fit: contain;
+     width:100%vw;
+    overflow: hidden;}
+
+}
